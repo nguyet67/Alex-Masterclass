@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+.nav_bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17181A;
+    height: 123px;
+}
+.right {
+    display: flex;
+}
+.left {
+    display: flex;
+}
+.logo {
+    display: flex;
+    height: 82px;
+    width: 82px;
+    background-color: #FFFFFF;
+    color: #000;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+.myname {
+    display: flex;
+    color: #FFFFFF;
+    padding: 0 15px;
+    align-items: center;
+}
+.nav_menu {
+    display: flex;
+    list-style: none;
+    color: #FFFFFF;
+}
+.nav_item {
+    padding: 0 15px;
+}
+.introduction {
+    position: absolute;
+    background-color: #17181A;
+    color: #FFFFFF;
+    height: 50%;
+    width: 100%;
+}
+.intro_title {
+    margin: 50px 0 0 212px;
+}
+.intro_paragraph {
+    margin: 50px 0 0 212px;
+}
+.project_title {
+    margin: 50px 0 0 212px;
+}
+.myprojects {
+    position: relative;
+    width: 100%;
+    display: flex;
+    top: 361px;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
