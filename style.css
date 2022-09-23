@@ -1,5 +1,9 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 16px;
 }
 .nav_bar {
     width: 100%;
@@ -24,13 +28,22 @@ body {
     margin-left: 25px;
     justify-content: center;
     align-items: center;
-
+}
+.initial_N {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+}
+.initial_P {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
 }
 .myname {
     display: flex;
     color: #FFFFFF;
     padding: 0 15px;
     align-items: center;
+    font-weight: 300;
+    font-size: 1.5rem;
 }
 .nav_menu {
     display: flex;
@@ -41,27 +54,38 @@ body {
     padding: 0 15px;
 }
 .introduction {
-    position: absolute;
+    position: relative;
     background-color: #17181A;
     color: #FFFFFF;
-    height: 50%;
+    height: 320px;
     width: 100%;
+    float: left;
+    clear: none;
 }
 .intro_title {
     margin: 50px 0 0 212px;
+    font-weight: 200;
+    font-size: 0.75rem;
 }
 .intro_paragraph {
     margin: 50px 0 0 212px;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 .project_title {
+    position: absolute;
     margin: 50px 0 0 212px;
+    bottom: 1.25rem;
+    font-weight: 200;
+    font-size: 0.75rem;
 }
 .myprojects {
     position: relative;
     width: 100%;
     display: flex;
-    top: 361px;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 250px;
+    padding: 10px;
 }
