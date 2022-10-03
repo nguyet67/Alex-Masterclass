@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+}
+/* p {
+    line-height: 2rem;   
+}
+
+.p_line {
+    font-style: italic;
+    border-left: solid;
+    border-width: 0.3rem;
+    border-color: aqua;
+    padding-left: 20px;
+} */
+
+p {
+    position: relative;
+    line-height: 2rem;
+    margin: 20px;
+}
+p::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    background-color: aquamarine;
+    height: 100%;
+    width: 5px;
+    border-radius: 1000px;
+    left: -10px;
+}
